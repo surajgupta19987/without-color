@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+#secone{
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Navbar{
+    background-color: #0984e3 !important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.menu_active{
+    font-weight: bold !important;
+    border-bottom: 1px solid white !important;
+}
+.hed{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: black;
+    opacity: 70%;
+    
+}
+.sec{
+    background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#vdo{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+     
+}
+.heding{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+   
+}
+#serv{
+    background-color: #0984e3;
+    border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#p1{
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Home section four css start */
+
+.sec4h1{
+    letter-spacing: 5px;
+    font-size: 70px;
+    color: #0984e3;
+}
+#secfourimg{
+    width: 100%;
+    height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Home section four css end */
+
+/* Home section six css start  */
+
+#secsix{
+    
+    background-color: #0984e3;
+    margin-bottom: 50px;
+    border-radius: 8px;
 }
+
+/* Home section seven css start */
+#secsevenhover{
+    transition: 0.5s;
+    color: #0984e3;
+    
+}
+#secsevenhover:hover{
+    background-color: #0984e3;
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;
+    
+}
+.mainsecseven{
+    background-color: #e2e6eb;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.secsevenhediing{
+    color: #0984e3;
+    font-weight: lighter;
+    text-shadow: black;
+}
+
+
+/* Home section seven css end */
+
+/* Home section ait css start */
+
+.mainsecait{
+    background-color: #0984e3;
+}
+
+/* Home section ait css start */
+
+/* Home section nine start */
+
+#secnineimg{
+    position: relative;
+}
+#secninecontainer{
+    position: absolute;
+}
+.sec-nineh3{
+    color: #0984e3;
+}
+.sec-ninep{
+    color: black;
+    opacity: 75%;
+}
+#sec-nineimg{
+    width: 100%;
+    height: 85%;
+}
+/* Home section nine end */
+
+/* Home section ten css start */
+
+#sec-tencontainer{
+    background-color: #2d3436;
+    color: white;
+}
+/* Home section ten css end */
+
+/* how we work sectuion first css start */
+
+
+
+/* how we work sectuion first css start */
+
+.seconeh2{
+    color: #0984e3;
+}
+/* how we work sectuion first css start */
+
+/* Customer page css start */
+
+/* section 2 start */
+
+.client{
+    background-color: white;
+}
+
+#Card{
+    background-color: #0984e3;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* section 2 end */
+
+/* section 3 start */
+
+#sec3{
+    background-color: #0984e3;
+}
+
+/* section 3 end */
+
+/* Customer page css end */
+
