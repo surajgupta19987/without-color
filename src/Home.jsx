@@ -58,7 +58,7 @@ const Home = () => {
                             </div>
 
                                  <div className="col-md-6  order-1 order-lg-2 header-img ">
-                                    <img src={g1} className="img-fluid animated" data-aos="zoom-in" alt="home image"/>
+                                    <img src={g1} className="img-fluid animated" data-aos="zoom-in" alt="home"/>
                                  </div>
                         </div>
                     </div>
@@ -124,43 +124,43 @@ const Home = () => {
                          <div className="row p-2" id="p1">
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
 
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
 
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
 
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
 
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
 
                              <div className="col-md-4 p-4 d-flex flex-column" data-aos="zoom-in">
                              
-                                <div className="sumary-img"><img src={address} width={'50px'}/></div>
-                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="#">E-Commerce</a></p></div>
+                                <div className="sumary-img"><img src={address} width={'50px'} alt="/"/></div>
+                                <div className="summary-text"><p><a className="text-decoration-none text-white" href="/">E-Commerce</a></p></div>
                                 <div className="summary-text"><p>30+ e-commerce solutions, 12 fintech top-funded products.</p></div>
                              </div>
                              
@@ -177,7 +177,7 @@ const Home = () => {
         <section>
             <div className="container-fluid p-5">
                 <div className="row ">
-                    <div className="col-md-6"><img src={a1} data-aos="zoom-in" id="secfourimg"/></div>
+                    <div className="col-md-6"><img src={a1} data-aos="zoom-in" id="secfourimg" alt="/"/></div>
                     <div className="col-md-6 d-flex justify-content-center align-items-center text-center"><h1 className="sec4h1" data-aos="slide-right">Cubexo</h1></div>
                 </div>
             </div>
@@ -255,7 +255,7 @@ const Home = () => {
 
                                 We embrace change and are constantly evolving. We push and elevate each other with the shared goal of doing awesome work.</p>
                     </div>
-                    <div className="col-md-6"><img src={web} id="sec-nineimg"/></div>
+                    <div className="col-md-6"><img src={web} id="sec-nineimg" alt="/"/></div>
                 </div>
             </div>
         </section>

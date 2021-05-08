@@ -1,7 +1,6 @@
 import React,{useEffect} from 'react';
 import AOS from 'aos';
 import customerstis from './images/customerstis.jpg';
-import { faRubleSign } from '@fortawesome/free-solid-svg-icons';
 import circlephoto from './images/circlephoto.jpg';
 import Card from './Components/card';
 
@@ -20,12 +19,12 @@ const  Customers = () => {
                      <div className="col-md-6 order-lg-1 order-2 pt-4">
                          <h2 className="text-capitalize" data-aos="zoom-in" style={{fontWeight:'bold',opacity:'60%'}}>customers & customer satisfaction</h2>
                          <p data-aos="zoom-in">CUSTOMERS WHO TRUSTED US.</p>
-                         <h2 data-aos="zoom-in" className="seconeh2 text-capitalize" data-aos="zoom-in">We help startups and Enterprises to hire Remote Engineers, Designers, Marketers, Managers, CTOs.</h2>
+                         <h2 data-aos="zoom-in" className="seconeh2 text-capitalize" >We help startups and Enterprises to hire Remote Engineers, Designers, Marketers, Managers, CTOs.</h2>
                          <p data-aos="zoom-in">You share your requirement, we can get your team ready in 7-10 days. 70+ Companies are working with us since last 4 years, and 400% Jump in business after Covid. You can trust us.</p>
                 </div>
 
                 <div className="col-md-6  order-lg-2  order-1">
-                         <img src={customerstis} width="100%" height="100%" data-aos="fade"/>
+                         <img src={customerstis} width="100%" height="100%" data-aos="fade" alt="/"/>
                 </div>
              </div>
 

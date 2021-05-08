@@ -183,3 +183,44 @@
 
 /* Customer page css end */
 
+/*blog page css start*/
+.img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    
+}
+
+
+.img-div{
+   
+    overflow: hidden;
+   
+}
+.img-top:hover{
+    transform: scale(1.8);
+} 
+/*blog page css end*/
+/*Review page css start*/
+.Review-top-head{
+    height: 400PX;
+    background-color: #0984e3;
+}
+.gg{
+    margin: 0;
+    padding: 0;
+}
+/*Review page css end*/
+/*about us page css start*/
+.logo-about{
+    width:300px;
+    height: auto;
+}
+.gr{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(70, 54, 143), black);
+    color: blanchedalmond;
+    opacity: 0.9;
+}
+.fs{
+    font-family: Cursive;
+}

@@ -21,7 +21,7 @@ const Howwework = () => {
          <section>
              <div className="container-fluid ">
                  <div className="row">
-                     <img src={d} data-aos="slide-down" className="px-0"/>
+                     <img src={d} data-aos="slide-down" className="px-0" alt="/"/>
                  </div>
              </div>
          </section>
@@ -51,7 +51,7 @@ const Howwework = () => {
                          </p>
                      </div>
                      <div className="col-md-6  order-lg-2  order-1">
-                         <img src={Mobileapp} width="100%" height="100%" data-aos="fade"/>
+                         <img src={Mobileapp} width="100%" height="100%" data-aos="fade" alt="/"/>
                      </div>
                  </div>
 
@@ -78,7 +78,7 @@ const Howwework = () => {
                             </p>
                         </div>
                         <div className="col-md-6  order-lg-1  order-1 d-flex justify-content-center">
-                            <img src={Webdevelopment} width="80%" height="80%" data-aos="fade"/>
+                            <img src={Webdevelopment} width="80%" height="80%" data-aos="fade" alt="/"/>
                         </div>
                     </div>
 
@@ -104,7 +104,7 @@ const Howwework = () => {
                             </p>
                         </div>
                         <div className="col-md-6  order-lg-2  order-1 d-flex justify-content-center">
-                            <img src={Uiux} width="80%" height="80%" data-aos="fade"/>
+                            <img src={Uiux} width="80%" height="80%" data-aos="fade" alt="/"/>
                         </div>
                     </div>
 
@@ -127,7 +127,7 @@ const Howwework = () => {
                             </p>
                         </div>
                         <div className="col-md-6  order-lg-1  order-1 d-flex justify-content-center align-items-center">
-                            <img src={Qulity} width="100%" height="85%" data-aos="fade"/>
+                            <img src={Qulity} width="100%" height="85%" data-aos="fade" alt="/"/>
                         </div>
                     </div>
 
@@ -152,7 +152,7 @@ const Howwework = () => {
                             </p>
                         </div>
                         <div className="col-md-6  order-lg-2  order-1 d-flex justify-content-center align-items-center">
-                            <img src={Staffing} width="100%" height="85%" data-aos="fade" className="rounded"/>
+                            <img src={Staffing} width="100%" height="85%" data-aos="fade" alt="/" className="rounded"/>
                         </div>
                     </div>
 
@@ -175,7 +175,7 @@ const Howwework = () => {
                             </p>
                         </div>
                         <div className="col-md-6  order-lg-1  order-1 d-flex justify-content-center align-items-center">
-                            <img src={Iotsolo} width="100%" height="85%" data-aos="fade" className="rounded"/>
+                            <img src={Iotsolo} width="100%" height="85%" data-aos="fade" alt="/" className="rounded"/>
                         </div>
                     </div>
 

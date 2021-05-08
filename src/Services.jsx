@@ -39,7 +39,7 @@ const Services = () => {
                      <p data-aos="slide-right"><NavLink className="text-decoration-none" to="#">React Native Development</NavLink></p>
                      <h3 className="pt-lg-5 pb-sm-3" data-aos="slide-right">“Your mobile device has quickly become the easiest portal into your digital self.”</h3>
                      </div>
-                     <div className="col-md-6 order-lg-2 order-1" data-aos="fade-up"><img src={servicesone} style={{width:'100%',height:'100%'}}/></div>
+                     <div className="col-md-6 order-lg-2 order-1" data-aos="fade-up"><img src={servicesone} style={{width:'100%',height:'100%'}} alt="/"/></div>
                  </div>
              </div>
          </section>
@@ -62,7 +62,7 @@ const Services = () => {
                      <p data-aos="zoom-in"><NavLink className="text-decoration-none" to="#">Full Stack Development</NavLink></p>
                      <h3 className="pt-lg-5 pb-sm-3" data-aos="zoom-in">“A website without visitors is like a ship lost in the horizon.”</h3>
                      </div>
-                     <div className="col-md-6 order-lg-1 order-1" data-aos="fade-up" ><img src={servicetwo} style={{width:'100%',height:'100%'}}/></div>
+                     <div className="col-md-6 order-lg-1 order-1" data-aos="fade-up" ><img src={servicetwo} style={{width:'100%',height:'100%'}} alt="/"/></div>
                  </div>
              </div>
          </section>
@@ -85,7 +85,7 @@ const Services = () => {
                      <p data-aos="slide-right"><NavLink className="text-decoration-none" to="#">Full Stack Development</NavLink></p>
                      <h3 className="pt-lg-5 pb-sm-3" data-aos="slide-right">“ In order to be irreplaceable, one must always be different”</h3>
                      </div>
-                     <div className="col-md-6 order-lg-2 order-1" ><img src={servicethree} style={{width:'100%',height:'100%'}}/></div>
+                     <div className="col-md-6 order-lg-2 order-1" ><img src={servicethree} style={{width:'100%',height:'100%'}} alt="/"/></div>
                  </div>
              </div>
          </section>
